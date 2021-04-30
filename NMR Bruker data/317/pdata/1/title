@@ -1,0 +1,6 @@
+T = 5C
+N15 High field RFoff on protons
+0 Hz shift
+0.25s switch off, B1max 100Hz
+RG = 912
+NS = 1 D1 = 1s

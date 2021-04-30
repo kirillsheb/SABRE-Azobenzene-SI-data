@@ -1,0 +1,45 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/315/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 22:55:13.754 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 22:54:56.024 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       71 A5 05 24 1B E8 68 DC 09 0A 62 6A 5E A0 B8 22>)
+(   2,<2018-06-15 22:55:20.634 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0 FT_mod = 6 PKNL = 1 PHC0 = -209.9948 PHC1 = -107.2505 SI = 128K 
+       data hash MD5: 128K
+       B2 D3 68 4B FB 9F B8 19 2B E3 25 21 A9 39 85 A4>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/315/pdata/1/auditp.txt
+(   3,<2021-04-02 14:57:29.239 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       T = 5CTITLE_END
+       data hash MD5: 128K
+       B2 D3 68 4B FB 9F B8 19 2B E3 25 21 A9 39 85 A4>)
+(   4,<2021-04-02 14:57:29.479 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       T = 5CTITLE_END
+       data hash MD5: 128K
+       B2 D3 68 4B FB 9F B8 19 2B E3 25 21 A9 39 85 A4>)
+(   5,<2021-04-02 14:57:45.190 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 5C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       B2 D3 68 4B FB 9F B8 19 2B E3 25 21 A9 39 85 A4>)
+##END=
+
+$$ hash MD5
+$$ A4 1E 7E DC F7 61 DD B7 BB A6 18 C1 64 1B 5A 84

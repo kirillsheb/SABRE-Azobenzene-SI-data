@@ -1,0 +1,51 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= Blum
+$$ E:/data/novosib_400/nmr/KS_20180614_AzoN15_sabre/93/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-14 21:44:06.284 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-14 21:42:17.993 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       79 78 A9 DE 00 82 18 11 33 DD E4 04 9C 79 7C 44>)
+(   2,<2021-03-28 20:30:33.695 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<proc1d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       efp LB = 1 FT_mod = 6 PKNL = 1 PHC0 = -209.9948 PHC1 = -107.2505 SI = 128K 
+       data hash MD5: 128K
+       D0 64 32 76 65 42 79 47 89 1B 7D 06 14 73 A5 7E>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/93/pdata/1/auditp.txt
+(   3,<2021-04-02 14:46:43.368 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H (10mg Azo (cis + trans) 2mg Imes/1000 ul MeOD, 400ul)
+       after activation
+       d1 = 100sTITLE_END
+       data hash MD5: 128K
+       D0 64 32 76 65 42 79 47 89 1B 7D 06 14 73 A5 7E>)
+(   4,<2021-04-02 14:46:50.731 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H (10mg Azo (cis + trans) 2mg Imes/1000 ul MeOD, 400ul)
+       after activationTITLE_END
+       data hash MD5: 128K
+       D0 64 32 76 65 42 79 47 89 1B 7D 06 14 73 A5 7E>)
+(   5,<2021-04-02 14:52:56.988 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H (10mg Azo (cis + trans) 2mg Imes/1000 ul MeOD, 400ul)
+       after activation
+       Figures S1 and S3TITLE_END
+       data hash MD5: 128K
+       D0 64 32 76 65 42 79 47 89 1B 7D 06 14 73 A5 7E>)
+(   6,<2021-04-02 14:52:57.398 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H (10mg Azo (cis + trans) 2mg Imes/1000 ul MeOD, 400ul)
+       after activation
+       Figures S1 and S3TITLE_END
+       data hash MD5: 128K
+       D0 64 32 76 65 42 79 47 89 1B 7D 06 14 73 A5 7E>)
+##END=
+
+$$ hash MD5
+$$ 33 C6 D7 F1 86 0C B7 37 D0 44 CB 9E 8F E9 19 03

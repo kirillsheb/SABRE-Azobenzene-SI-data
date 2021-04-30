@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 7	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2021-04-02 14:49:58.348 +0200  Blum@DESKTOP-C5S6PTV
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/94/pdata/1/assocs
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\dataserver.exe
+##$MULTDISP= <E:/data/novosib_400/nmr/KS_20180614_AzoN15_sabre/93/pdata/1>
+##END=

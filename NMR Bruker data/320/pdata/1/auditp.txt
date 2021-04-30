@@ -1,0 +1,34 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/320/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 23:13:23.505 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 23:13:05.355 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       58 D2 2F 90 BA 45 EF E2 C2 8F 96 A5 9A 24 F4 0C>)
+(   2,<2018-06-15 23:13:52.115 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0 FT_mod = 6 PKNL = 1 PHC0 = -209.9948 PHC1 = -107.2505 SI = 128K 
+       data hash MD5: 128K
+       BE 6C D5 4F 6F DB 68 28 67 1B 73 8F 2B 36 9F 16>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/320/pdata/1/auditp.txt
+(   3,<2021-04-02 15:00:27.059 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 0CTITLE_END
+       data hash MD5: 128K
+       BE 6C D5 4F 6F DB 68 28 67 1B 73 8F 2B 36 9F 16>)
+(   4,<2021-04-02 15:00:27.394 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 0CTITLE_END
+       data hash MD5: 128K
+       BE 6C D5 4F 6F DB 68 28 67 1B 73 8F 2B 36 9F 16>)
+##END=
+
+$$ hash MD5
+$$ 5F 5F 69 96 AD B2 38 A5 FF 46 59 7C 60 04 7E 91

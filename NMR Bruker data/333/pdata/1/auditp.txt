@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/333/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 23:33:16.767 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 23:32:59.567 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       8F 1F EA 6C 09 38 FD 4E A7 FA 5F 43 F0 78 A3 65>)
+(   2,<2018-06-15 23:33:28.667 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 50.591 PHC1 = -70.156 SI = 128K 
+       data hash MD5: 128K
+       66 DA E9 72 AC 7F F2 D3 F9 62 2D AE 99 26 71 2E>)
+##END=
+
+$$ hash MD5
+$$ B4 40 DE B4 F4 3E 12 1E 48 64 65 C5 4F 32 CC 50

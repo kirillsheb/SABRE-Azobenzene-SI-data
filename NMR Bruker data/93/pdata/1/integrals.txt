@@ -1,0 +1,6 @@
+   Current data set:
+   NAME =	KS_20180614_AzoN15_sabre	EXPNO =	93	PROCNO = 1
+   DU   =	E:/data/novosib_400/nmr
+
+   Number   Integrated Region     Integral
+     1      6.915      6.820         1.00000

@@ -1,0 +1,45 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/323/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 23:18:30.046 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 23:18:12.156 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       77 32 17 96 5B 0F 39 50 8B 40 09 F6 02 E6 19 3B>)
+(   2,<2018-06-15 23:18:33.896 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 50.591 PHC1 = -70.156 SI = 128K 
+       data hash MD5: 128K
+       4F 04 3A C7 FC DC 93 1C 3A 60 12 9C C1 DC 20 88>)
+(   3,<2018-06-15 23:19:15.796 +0700>,<nmr>,<rk400>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       RG = 912
+       NS = 1 D1 = 1s
+       T = 5C
+       O2p = -18.531ppmTITLE_END
+       data hash MD5: 128K
+       4F 04 3A C7 FC DC 93 1C 3A 60 12 9C C1 DC 20 88>)
+(   4,<2018-06-15 23:19:16.266 +0700>,<nmr>,<rk400>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       RG = 912
+       NS = 1 D1 = 1s
+       T = 5C
+       O2p = -18.531ppmTITLE_END
+       data hash MD5: 128K
+       4F 04 3A C7 FC DC 93 1C 3A 60 12 9C C1 DC 20 88>)
+##END=
+
+$$ hash MD5
+$$ 35 0A 16 68 95 9B 0E BC C6 04 A7 CD 39 67 22 41

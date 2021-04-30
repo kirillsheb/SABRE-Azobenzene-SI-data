@@ -1,0 +1,65 @@
+# Sat Jun 09 15:31:39 2018
+#$$PROBEID=11
+#$$PROBEINFO=5 mm PABBO BB/19F-1H/D Z-GRD Z108618/0650
+#$$PICSINFO=Z108618_0650_11.par
+#$$SHIMID=313232
+#
+# Active Shim Gradients
+#
+Z           		-2177           
+Z2          		-4721           
+Z3          		12936           
+Z4          		-57665          
+Z5          		41939           
+Z6          		14924           
+X           		-8881           
+XZ          		2174            
+XZ2         		11485           
+XZ3         		4879            
+Y           		-1431           
+YZ          		-752            
+YZ2         		-1401           
+YZ3         		799             
+XY          		5750            
+XYZ         		-3901           
+(X2-Y2)     		-6608           
+(X2-Y2)Z    		-8718           
+X3          		-8434           
+Y3          		-4286           
+#
+# Lock Parameter
+#
+FIELD		7300.515
+LOCKPHASE		187.600 
+LOCKPOWER		-35.000 
+LOCKGAIN		114.500 
+LOCKDC		-75.000 
+LOCKSHIFT		3.300   
+LOOPGAIN		-5.000  
+LOOPTIME		0.100   
+LOOPFILTER		100.000 
+#
+IEEE64_VERSION_CODE 1
+#
+# Shim currents 
+#
+SHIM_SETTING [1 ]  -1055.84500000  
+SHIM_SETTING [2 ]  -2336.70162083  
+SHIM_SETTING [3 ]  6804.41562896   
+SHIM_SETTING [4 ]  -30331.78572005 
+SHIM_SETTING [5 ]  22059.74675074  
+SHIM_SETTING [6 ]  -4671.40600001  
+SHIM_SETTING [7 ]  1143.52400000   
+SHIM_SETTING [8 ]  6041.11000000   
+SHIM_SETTING [9 ]  -3475.80800000  
+SHIM_SETTING [10]  3024.50000000   
+SHIM_SETTING [11]  -752.70600000   
+SHIM_SETTING [12]  -395.55200000   
+SHIM_SETTING [13]  -736.92600000   
+SHIM_SETTING [14]  420.27400000    
+SHIM_SETTING [15]  7850.02400000   
+SHIM_SETTING [16]  -4585.66800000  
+SHIM_SETTING [17]  2566.35400000   
+SHIM_SETTING [18]  -2051.92600000  
+SHIM_SETTING [19]  -4436.28400000  
+SHIM_SETTING [20]  -2254.43600000  

@@ -1,0 +1,54 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/302/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 22:30:33.598 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 22:30:15.878 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       F1 CA 47 45 44 FA FB 81 90 91 0D A0 6F 20 A0 4B>)
+(   2,<2018-06-15 22:30:38.188 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0 FT_mod = 6 PKNL = 1 PHC0 = -209.9948 PHC1 = -107.2505 SI = 128K 
+       data hash MD5: 128K
+       C6 E5 A2 C8 2F 14 2F D5 59 51 B7 72 19 85 71 D5>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/302/pdata/1/auditp.txt
+(   3,<2021-04-02 14:56:00.299 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       
+       T = 15CTITLE_END
+       data hash MD5: 128K
+       C6 E5 A2 C8 2F 14 2F D5 59 51 B7 72 19 85 71 D5>)
+(   4,<2021-04-02 14:56:00.559 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       
+       T = 15CTITLE_END
+       data hash MD5: 128K
+       C6 E5 A2 C8 2F 14 2F D5 59 51 B7 72 19 85 71 D5>)
+(   5,<2021-04-02 14:58:19.849 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 15C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       C6 E5 A2 C8 2F 14 2F D5 59 51 B7 72 19 85 71 D5>)
+(   6,<2021-04-02 14:58:20.129 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 15C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       C6 E5 A2 C8 2F 14 2F D5 59 51 B7 72 19 85 71 D5>)
+##END=
+
+$$ hash MD5
+$$ CF 47 92 A1 02 FF 0E F3 18 72 55 A1 12 92 11 37

@@ -1,0 +1,105 @@
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+;phip
+;avance-version (12/01/11)
+;1D sequence
+;
+;$CLASS=HighRes
+;$DIM=1D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+# 169 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.9.8.3 2013/08/30 09:44:49 ber Exp $
+# 12 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig" 2
+
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/TTLvalves_shuttle.incl" 1
+;ATTLvalves.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 42 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/TTLvalves_shuttle.incl"
+;$Id: TTLvalves.incl,v 1.9.8.3 25.12.2015 Kiryutin Alexey 09:44:49 ber Exp $
+# 13 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig" 2
+
+
+; use commands for operating valves
+; setnmr3|16, setnmr3^16, setnmr3|17, setnmr3^17, setnmr3|18, setnmr3^18, 
+; setnmr3|19, setnmr3^19, setnmr3|15, setnmr3^15, setnmr3|10, setnmr3^10, setnmr3|11, setnmr3^11
+# 19 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+"acqt0=-p1*2/3.1416"
+
+
+# 1 "mc_line 22 file C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig exp. def. part of mc cmd. before ze"
+define delay MCWRK
+define delay MCREST
+"MCREST = 30m - 30m"
+"MCWRK = 0.333333*30m"
+
+    dccorr
+# 22 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+1 ze
+# 1 "mc_line 22 file C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig exp. def. of mc cmd. after ze"
+# 23 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+  30m pl12:f2
+# 1 "mc_line 24 file C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig exp. start label for mc cmd."
+2 MCWRK  * 2 do:f2
+LBLF0, MCWRK 
+  MCREST
+# 25 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+10u setnmr3^0
+  d1 
+10u setnmr3|0  
+  100m setnmr3|16 setnmr3|19 setnmr3|11 setnmr3^10 ; (start pH2 bubbling)
+d2 setnmr3|17
+	100m setnmr3^17 
+	100m setnmr3|10 ; stop bubbling
+  d3
+# 34 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+  p1 ph1
+  go=2 ph31 cpd2:f2
+	50m setnmr3^10 do:f2 
+	100m setnmr3^16 setnmr3^11 setnmr3^19  
+# 1 "mc_line 38 file C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig exp. mc cmd. in line"
+  MCWRK wr #0
+  MCWRK zd
+  lo to LBLF0 times td0
+
+  MCWRK
+# 39 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+	10u setnmr3^0
+
+exit
+
+# 44 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+ph1=0
+ph31=0
+
+
+;pl1 : f1 channel - power level for pulse (default)
+;p1 : f1 channel -  high power pulse
+;d1 : relaxation delay; 1-5 * T1
+;d2 : bubbling time pH2
+;d3 : waiting after bubling 
+;ns: 1 * n, total number of scans: NS * TD0
+# 55 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+;pl12: f2 channel - power level for CPD/BB decoupling
+;cpd2: decoupling according to sequence defined by cpdprg2
+;pcpd2: f2 channel - 90 degree pulse for decoupling sequence
+
+
+# 61 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_ig"
+;$Id: zg,v 1.10.8.1 2012/01/31 17:56:41 ber Exp $

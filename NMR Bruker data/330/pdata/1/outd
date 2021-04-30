@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2018-06-15 23:20:53.946 +0700  nmr@rk400
+$$ E:\data\nmr/KS_20180615_AzoN15_sabre/330/pdata/1/outd
+$$ process C:\Bruker\TS32pl7\prog\mod\edparproc.exe
+##$CURPLOT= <PDF reDirect v2>
+##$CURPRIN= <$PDF reDirect v2>
+##$DFORMAT= <normdp>
+##$LAYOUT= <c:/bruker/ts32pl4/data/accept/nmr/819001_0014lsnh/100/pdata/1/layout.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

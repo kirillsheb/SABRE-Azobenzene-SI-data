@@ -1,0 +1,84 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/312/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 22:46:42.033 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 22:46:21.543 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       3B C2 7D 80 6E A9 F5 A2 38 01 D2 97 93 EB 2A FB>)
+(   2,<2018-06-15 22:46:45.093 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 5 FT_mod = 6 PKNL = 1 PHC0 = 50.591 PHC1 = -70.156 SI = 128K 
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+(   3,<2018-06-15 22:49:27.953 +0700>,<nmr>,<rk400>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       RG = 912
+       NS = 1 D1 = 1s
+       T = 10CTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+(   4,<2018-06-15 22:49:29.213 +0700>,<nmr>,<rk400>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       RG = 912
+       NS = 1 D1 = 1s
+       T = 10CTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/312/pdata/1/auditp.txt
+(   5,<2021-04-02 14:57:15.002 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       T = 10CTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+(   6,<2021-04-02 14:57:15.496 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100Hz
+       T = 10CTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+(   7,<2021-04-02 14:57:54.182 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 10C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5
+       N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100HzTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+(   8,<2021-04-02 14:57:54.459 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 10C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5
+       N15 High field RFoff on protons
+       0 Hz shift
+       0.25s switch off, B1max 100HzTITLE_END
+       data hash MD5: 128K
+       9C 21 B8 11 2B 63 3A 22 45 C0 9C FF 75 E8 50 A0>)
+##END=
+
+$$ hash MD5
+$$ C0 70 AC 66 B3 55 0F 37 DC B1 E6 D6 AC B8 00 DF

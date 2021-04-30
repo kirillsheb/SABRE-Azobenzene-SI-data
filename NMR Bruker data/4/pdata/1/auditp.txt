@@ -1,0 +1,51 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180614_AzoN15_sabre/4/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-14 16:47:42.543 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-14 16:34:05.995 +0700,
+	POWCHK enabled, PULCHK disabled,
+       terminated by command 'stop'
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K * 24
+       3B 63 56 A9 9F 26 9E C9 12 A8 89 07 91 53 1C D2>)
+(   2,<2018-06-15 16:26:52.440 +0700>,<nmr>,<rk400>,<proc2d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       xf2 F2: SI = 128K WDW = 1 LB = 0.2 FT_mod = 6 PKNL = 1 PHC0 = -232.704 PHC1 = -17.82723 F1: SI = 32 MC2 = 0
+       data hash MD5: 128K * 32
+       8E 5E DA 30 12 76 9B 7F D6 FD D5 F1 F0 78 83 8E>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/4/pdata/1/auditp.txt
+(   3,<2021-04-02 14:45:49.838 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H cis + trans azo Pi/4 pulse
+       d1 = 20s pH2 bubbling periodTITLE_END
+       data hash MD5: 128K * 32
+       8E 5E DA 30 12 76 9B 7F D6 FD D5 F1 F0 78 83 8E>)
+(   4,<2021-04-02 14:51:21.231 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H cis + trans azo Pi/4 pulse
+       d1 = 20s pH2 bubbling period / spectrumTITLE_END
+       data hash MD5: 128K * 32
+       8E 5E DA 30 12 76 9B 7F D6 FD D5 F1 F0 78 83 8E>)
+(   5,<2021-04-02 14:52:22.331 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H cis + trans azo Pi/4 pulse
+       d1 = 20s pH2 bubbling period / spectrum
+       Figure S2TITLE_END
+       data hash MD5: 128K * 32
+       8E 5E DA 30 12 76 9B 7F D6 FD D5 F1 F0 78 83 8E>)
+(   6,<2021-04-02 14:52:22.660 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=1H cis + trans azo Pi/4 pulse
+       d1 = 20s pH2 bubbling period / spectrum
+       Figure S2TITLE_END
+       data hash MD5: 128K * 32
+       8E 5E DA 30 12 76 9B 7F D6 FD D5 F1 F0 78 83 8E>)
+##END=
+
+$$ hash MD5
+$$ 09 D9 2C 76 2D 4C 35 A9 94 1E 24 E2 8A 16 81 7D

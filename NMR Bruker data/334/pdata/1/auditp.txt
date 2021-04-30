@@ -1,0 +1,45 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/334/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 23:34:04.057 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 23:33:25.507 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       34 46 B9 F7 0A 19 F3 F0 D4 01 AD 63 4E FF 26 F9>)
+(   2,<2018-06-15 23:34:12.717 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0.2 FT_mod = 6 PKNL = 1 PHC0 = -232.704 PHC1 = -17.82723 SI = 128K 
+       data hash MD5: 128K
+       2A 43 2C A7 AE 9D 9F 03 8A F8 BD 8F 8B 30 32 9C>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/334/pdata/1/auditp.txt
+(   3,<2021-04-02 15:01:56.699 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = -15CTITLE_END
+       data hash MD5: 128K
+       2A 43 2C A7 AE 9D 9F 03 8A F8 BD 8F 8B 30 32 9C>)
+(   4,<2021-04-02 15:04:21.830 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = -15C
+       1H detection by Pi/4 pulse with 15N decoupling
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       2A 43 2C A7 AE 9D 9F 03 8A F8 BD 8F 8B 30 32 9C>)
+(   5,<2021-04-02 15:04:22.215 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = -15C
+       1H detection by Pi/4 pulse with 15N decoupling
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       2A 43 2C A7 AE 9D 9F 03 8A F8 BD 8F 8B 30 32 9C>)
+##END=
+
+$$ hash MD5
+$$ FC A8 99 EB 83 2F 7E 4E D3 24 74 53 4B 74 7F 2A

@@ -1,0 +1,50 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/318/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 23:05:29.715 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 23:04:50.965 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       E4 14 2D E4 E8 4E CA FF 3A 28 C7 C1 B7 51 D9 FD>)
+(   2,<2018-06-15 23:05:34.645 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0.2 FT_mod = 6 PKNL = 1 PHC0 = -232.704 PHC1 = -17.82723 SI = 128K 
+       data hash MD5: 128K
+       48 F0 93 2C 7E D4 78 9B 46 E9 E0 53 5F 9E 55 2D>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/318/pdata/1/auditp.txt
+(   3,<2021-04-02 15:00:09.069 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 5CTITLE_END
+       data hash MD5: 128K
+       48 F0 93 2C 7E D4 78 9B 46 E9 E0 53 5F 9E 55 2D>)
+(   4,<2021-04-02 15:00:09.319 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 5CTITLE_END
+       data hash MD5: 128K
+       48 F0 93 2C 7E D4 78 9B 46 E9 E0 53 5F 9E 55 2D>)
+(   5,<2021-04-02 15:03:43.002 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 5C
+       1H detection by Pi/4 pulse with N15 decoupling
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       48 F0 93 2C 7E D4 78 9B 46 E9 E0 53 5F 9E 55 2D>)
+(   6,<2021-04-02 15:03:43.559 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 5C
+       1H detection by Pi/4 pulse with N15 decoupling
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       48 F0 93 2C 7E D4 78 9B 46 E9 E0 53 5F 9E 55 2D>)
+##END=
+
+$$ hash MD5
+$$ 81 75 A2 E1 8C 45 82 E5 88 EA CC 34 B7 D0 D7 69

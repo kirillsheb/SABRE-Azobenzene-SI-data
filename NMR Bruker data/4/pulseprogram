@@ -1,0 +1,83 @@
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+;phip
+;avance-version (12/01/11)
+;1D sequence
+;
+;$CLASS=HighRes
+;$DIM=1D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+# 169 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.9.8.3 2013/08/30 09:44:49 ber Exp $
+# 12 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat" 2
+
+# 1 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/TTLvalves_shuttle.incl" 1
+;ATTLvalves.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 42 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/TTLvalves_shuttle.incl"
+;$Id: TTLvalves.incl,v 1.9.8.3 25.12.2015 Kiryutin Alexey 09:44:49 ber Exp $
+# 13 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat" 2
+
+
+; use commands for operating valves
+; setnmr3|16, setnmr3^16, setnmr3|17, setnmr3^17, setnmr3|18, setnmr3^18, 
+; setnmr3|19, setnmr3^19, setnmr3|15, setnmr3^15, setnmr3|10, setnmr3^10, setnmr3|11, setnmr3^11
+# 19 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+"acqt0=-p1*2/3.1416"
+
+
+# 1 "mc_line 22 file C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat dc-measurement inserted automatically"
+
+    dccorr
+# 22 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+1 ze
+2 30m
+10u setnmr3^0
+  d1 
+10u setnmr3|0  
+  100m setnmr3|16 setnmr3|19 setnmr3|11 setnmr3^10 ; (start pH2 bubbling)
+d2 setnmr3|17
+	100m setnmr3^17 
+	100m setnmr3|10 ; stop bubbling
+  d3
+# 33 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+  p1 ph1
+  go=2 ph31
+  30m wr #0 if #0
+10u setnmr3^0
+
+  100m setnmr3^16 setnmr3^11 setnmr3^19
+50m setnmr3^10
+lo to 2 times td1  
+
+exit
+# 45 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+ph1=0
+ph31=0
+
+
+;pl1 : f1 channel - power level for pulse (default)
+;p1 : f1 channel -  high power pulse
+;d1 : relaxation delay; 1-5 * T1
+;d2 : bubbling time pH2
+;d3 : waiting after bubling 
+;ns: 1 * n, total number of scans: NS * TD0
+# 58 "C:/Bruker/TS32pl7/exp/stan/nmr/lists/pp/user/phip_repeat"
+;$Id: zg,v 1.10.8.1 2012/01/31 17:56:41 ber Exp $

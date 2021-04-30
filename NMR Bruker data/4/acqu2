@@ -1,0 +1,22 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2018-06-14 16:33:18.515 +0700  nmr@rk400
+$$ E:/data/nmr/KS_20180614_AzoN15_sabre/4/acqu2
+$$ process C:\Bruker\TS32pl7\prog\mod\dataserver.exe
+##$ACQT0= 0
+##$BF1= 400.13
+##$FnMODE= 0
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 2000.65000001359
+##$SFO1= 400.13200065
+##$SW= 9.99670107240147
+##$SW_h= 4000
+##$TD= 32
+##END=

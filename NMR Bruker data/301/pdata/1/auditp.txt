@@ -1,0 +1,61 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ E:/data/nmr/KS_20180615_AzoN15_sabre/301/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-06-15 22:31:48.942 +0700>,<nmr>,<rk400>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-06-15 22:31:13.908 +0700,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       78 DF 54 BF 0D A7 AE 6B 9A BF F3 ED 1A 13 F8 BC
+       data hash MD5: 128K
+       1B 28 1A 32 F8 14 08 9A 3C EE 47 85 41 1A C5 FE>)
+(   2,<2018-06-15 22:32:05.252 +0700>,<nmr>,<rk400>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 0.2 FT_mod = 6 PKNL = 1 PHC0 = -232.704 PHC1 = -17.82723 SI = 128K 
+       data hash MD5: 128K
+       39 9E 94 DC ED B3 8B 63 8F 45 CC DC 32 18 41 EE>)
+$$ E:/data/novosib_400/nmr/KS_20180615_AzoN15_sabre/301/pdata/1/auditp.txt
+(   3,<2020-07-17 13:46:26.256 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<proc1d>,<TopSpin 3.6.2>,
+      <pk fgphup PHC0 = -22.5 PHC1 = 0 
+       data hash MD5: 128K
+       7B 3F 95 AC 18 F2 D2 EE 9C 45 C1 FE 38 E3 A9 ED>)
+$$ E:/data/novosib_400/nmr/Azo_SABRE_SI/301/pdata/1/auditp.txt
+(   4,<2021-04-02 14:55:01.079 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5 
+       T = 15C
+       1H detection by Pi/4 pulseTITLE_END
+       data hash MD5: 128K
+       7B 3F 95 AC 18 F2 D2 EE 9C 45 C1 FE 38 E3 A9 ED>)
+(   5,<2021-04-02 14:58:29.599 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 15C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5
+       1H detection by Pi/4 pulseTITLE_END
+       data hash MD5: 128K
+       7B 3F 95 AC 18 F2 D2 EE 9C 45 C1 FE 38 E3 A9 ED>)
+(   6,<2021-04-02 14:58:30.150 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 15C
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5
+       1H detection by Pi/4 pulseTITLE_END
+       data hash MD5: 128K
+       7B 3F 95 AC 18 F2 D2 EE 9C 45 C1 FE 38 E3 A9 ED>)
+(   7,<2021-04-02 15:03:03.929 +0200>,<Blum>,<DESKTOP-C5S6PTV>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=T = 15C
+       1H detection by Pi/4 pulse
+       Temperature dependence of SABRE
+       # 300 - 334 were used for Figure S5TITLE_END
+       data hash MD5: 128K
+       7B 3F 95 AC 18 F2 D2 EE 9C 45 C1 FE 38 E3 A9 ED>)
+##END=
+
+$$ hash MD5
+$$ CD 08 24 A9 94 92 6D 70 2A 99 F3 6F 3D C0 16 7A
